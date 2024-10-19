@@ -7,4 +7,4 @@ This is a simple guessing number game, implemented in HTML, CSS, and JavaScript,
 2. Open the `index.html` file in your browser.
 
 ## Notes
-** There are some vulgar language in the game, please use it with caution. **
+**There are some vulgar language in the game, please use it with caution.**
