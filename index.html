@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Your Shabby Ass</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Guess Your Shabby Ass</h1>
+        <div id="start-screen">
+            <p>准备好被骂了吗，傻逼？</p>
+            <button onclick="startGame()">开始游戏</button>
+        </div>
+        <div id="game-screen" style="display: none;">
+            <p id="message"></p>
+            <input type="text" id="guess-input" placeholder="输入你的猜测">
+            <button onclick="checkGuess()">猜！</button>
+            <button onclick="giveUp()">我要放弃，我是傻逼</button>
+        </div>
+        <div id="end-screen" style="display: none;">
+            <p id="end-message"></p>
+            <button onclick="showPopupThenRestart()">继续</button>
+            <button onclick="showPopupThenQuit()">退出</button>
+        </div>
+    </div>
+
+    <div id="history">
+        <h3>犯病记录</h3>
+        <ul id="history-list"></ul>
+    </div>
+
+    <div id="popup"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
