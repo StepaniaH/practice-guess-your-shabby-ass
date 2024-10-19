@@ -6,5 +6,5 @@ This is a simple guessing number game, implemented in HTML, CSS, and JavaScript,
 1. Clone or download this repository locally.
 2. Open the `index.html` file in your browser.
 
-# Notes
+## Notes
 ** There are some vulgar language in the game, please use it with caution. **
